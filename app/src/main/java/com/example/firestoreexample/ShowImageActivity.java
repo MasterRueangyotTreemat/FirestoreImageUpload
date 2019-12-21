@@ -55,7 +55,7 @@ public class ShowImageActivity extends AppCompatActivity {
                 objectDocumentReference.get().addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
                     @Override
                     public void onSuccess(DocumentSnapshot documentSnapshot) {
-                        String linkOfImage = documentSnapshot.getString("url");
+                        String linkOfImage = documentSnapshot.getString("uri");
 
                         Glide.with(ShowImageActivity.this)
                                 .load(linkOfImage)
