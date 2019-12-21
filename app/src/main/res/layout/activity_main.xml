@@ -39,7 +39,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/ทนอำฺะื"
+        android:id="@+id/moveBtn"
         android:text="Move to second act"
         android:layout_below="@+id/uploadBtn"
         android:onClick="moveToShowImageAct"/>
