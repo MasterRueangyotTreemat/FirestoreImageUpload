@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageNameET"
         android:layout_below="@+id/imageID"
-        android:hint="Enter iamge name"
+        android:hint="Enter image name"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"/>
 
@@ -25,7 +25,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/chooseBtn"
         android:text="Choose Image"
-        android:layout_below="@+id/imageNameET"/>
+        android:layout_below="@+id/imageNameET"
+        android:onClick="selectImage"/>
 
     <Button
         android:layout_width="match_parent"
@@ -33,13 +34,6 @@
         android:id="@+id/uploadBtn"
         android:text="Upload Image"
         android:layout_below="@+id/chooseBtn"/>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/chooseBtn"
-        android:text="Choose Image"
-        android:layout_below="@+id/imageNameET"/>
 
 
 </RelativeLayout>
