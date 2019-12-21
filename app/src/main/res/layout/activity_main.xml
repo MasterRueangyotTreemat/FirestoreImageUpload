@@ -33,7 +33,15 @@
         android:layout_height="wrap_content"
         android:id="@+id/uploadBtn"
         android:text="Upload Image"
-        android:layout_below="@+id/chooseBtn"/>
+        android:layout_below="@+id/chooseBtn"
+        android:onClick="uploadImage"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ทนอำฺะื"
+        android:text="Move to second act"
+        android:layout_below="@+id/uploadBtn"
+        android:onClick="moveToShowImageAct"/>
 
 </RelativeLayout>

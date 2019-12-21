@@ -19,7 +19,8 @@
         android:layout_height="wrap_content"
         android:text="Download Image"
         android:id="@+id/downloadBtn"
-        android:layout_below="@+id/downloadImageNameET"/>
+        android:layout_below="@+id/downloadImageNameET"
+        android:onClick="downloadImage"/>
 
     <ImageView
         android:layout_width="match_parent"
